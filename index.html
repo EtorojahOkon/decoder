@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="highlight.js-master/src/styles/default.css">
+    <title>Html editor</title>
+</head>
+<body>
+    <div class="main-editor">
+        <table>
+            <tr>
+                <td style="color:white;text-align:center;"> Input codes here</td>
+                <td style="color:white; text-align:center;">Live Output</td>
+            </tr>
+        <button class="btn">Run</button>
+        <tr><td>
+        <div class="first" contenteditable>
+           
+        </div>
+    </td><td>
+        <iframe class="second">
+        </iframe>
+    </td>
+</tr>
+</table>
+    </div>
+
+    <script src="app.js"></script>
+   
+   
+    <script src="highlight.js-master/src/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
